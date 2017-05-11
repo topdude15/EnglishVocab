@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF7FB9A31EC4DED700AB3A55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9A21EC4DED700AB3A55 /* AppDelegate.swift */; };
+		CF7FB9A51EC4DED700AB3A55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9A41EC4DED700AB3A55 /* ViewController.swift */; };
+		CF7FB9A81EC4DED700AB3A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7FB9A61EC4DED700AB3A55 /* Main.storyboard */; };
+		CF7FB9AA1EC4DED700AB3A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7FB9A91EC4DED700AB3A55 /* Assets.xcassets */; };
+		CF7FB9AD1EC4DED700AB3A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7FB9AB1EC4DED700AB3A55 /* LaunchScreen.storyboard */; };
+		CF7FB9B81EC4DED700AB3A55 /* Biology_Review_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9B71EC4DED700AB3A55 /* Biology_Review_QuizTests.swift */; };
+		CF7FB9C31EC4DED800AB3A55 /* Biology_Review_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9C21EC4DED800AB3A55 /* Biology_Review_QuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF7FB9B41EC4DED700AB3A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7FB9971EC4DED700AB3A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7FB99E1EC4DED700AB3A55;
+			remoteInfo = "Biology Review Quiz";
+		};
+		CF7FB9BF1EC4DED800AB3A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7FB9971EC4DED700AB3A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7FB99E1EC4DED700AB3A55;
+			remoteInfo = "Biology Review Quiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF7FB99F1EC4DED700AB3A55 /* Biology Review Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Biology Review Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7FB9A21EC4DED700AB3A55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF7FB9A41EC4DED700AB3A55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF7FB9A71EC4DED700AB3A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF7FB9A91EC4DED700AB3A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF7FB9AC1EC4DED700AB3A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF7FB9AE1EC4DED700AB3A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7FB9B31EC4DED700AB3A55 /* Biology Review QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biology Review QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7FB9B71EC4DED700AB3A55 /* Biology_Review_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biology_Review_QuizTests.swift; sourceTree = "<group>"; };
+		CF7FB9B91EC4DED800AB3A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7FB9BE1EC4DED800AB3A55 /* Biology Review QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biology Review QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7FB9C21EC4DED800AB3A55 /* Biology_Review_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biology_Review_QuizUITests.swift; sourceTree = "<group>"; };
+		CF7FB9C41EC4DED800AB3A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7FB99C1EC4DED700AB3A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7FB9B01EC4DED700AB3A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7FB9BB1EC4DED800AB3A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF7FB9961EC4DED700AB3A55 = {
+			isa = PBXGroup;
+			children = (
+				CF7FB9A11EC4DED700AB3A55 /* Biology Review Quiz */,
+				CF7FB9B61EC4DED700AB3A55 /* Biology Review QuizTests */,
+				CF7FB9C11EC4DED800AB3A55 /* Biology Review QuizUITests */,
+				CF7FB9A01EC4DED700AB3A55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7FB9A01EC4DED700AB3A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FB99F1EC4DED700AB3A55 /* Biology Review Quiz.app */,
+				CF7FB9B31EC4DED700AB3A55 /* Biology Review QuizTests.xctest */,
+				CF7FB9BE1EC4DED800AB3A55 /* Biology Review QuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF7FB9A11EC4DED700AB3A55 /* Biology Review Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FB9A21EC4DED700AB3A55 /* AppDelegate.swift */,
+				CF7FB9A41EC4DED700AB3A55 /* ViewController.swift */,
+				CF7FB9A61EC4DED700AB3A55 /* Main.storyboard */,
+				CF7FB9A91EC4DED700AB3A55 /* Assets.xcassets */,
+				CF7FB9AB1EC4DED700AB3A55 /* LaunchScreen.storyboard */,
+				CF7FB9AE1EC4DED700AB3A55 /* Info.plist */,
+			);
+			path = "Biology Review Quiz";
+			sourceTree = "<group>";
+		};
+		CF7FB9B61EC4DED700AB3A55 /* Biology Review QuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FB9B71EC4DED700AB3A55 /* Biology_Review_QuizTests.swift */,
+				CF7FB9B91EC4DED800AB3A55 /* Info.plist */,
+			);
+			path = "Biology Review QuizTests";
+			sourceTree = "<group>";
+		};
+		CF7FB9C11EC4DED800AB3A55 /* Biology Review QuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FB9C21EC4DED800AB3A55 /* Biology_Review_QuizUITests.swift */,
+				CF7FB9C41EC4DED800AB3A55 /* Info.plist */,
+			);
+			path = "Biology Review QuizUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF7FB99E1EC4DED700AB3A55 /* Biology Review Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7FB9C71EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review Quiz" */;
+			buildPhases = (
+				CF7FB99B1EC4DED700AB3A55 /* Sources */,
+				CF7FB99C1EC4DED700AB3A55 /* Frameworks */,
+				CF7FB99D1EC4DED700AB3A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Biology Review Quiz";
+			productName = "Biology Review Quiz";
+			productReference = CF7FB99F1EC4DED700AB3A55 /* Biology Review Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF7FB9B21EC4DED700AB3A55 /* Biology Review QuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7FB9CA1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review QuizTests" */;
+			buildPhases = (
+				CF7FB9AF1EC4DED700AB3A55 /* Sources */,
+				CF7FB9B01EC4DED700AB3A55 /* Frameworks */,
+				CF7FB9B11EC4DED700AB3A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7FB9B51EC4DED700AB3A55 /* PBXTargetDependency */,
+			);
+			name = "Biology Review QuizTests";
+			productName = "Biology Review QuizTests";
+			productReference = CF7FB9B31EC4DED700AB3A55 /* Biology Review QuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF7FB9BD1EC4DED800AB3A55 /* Biology Review QuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7FB9CD1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review QuizUITests" */;
+			buildPhases = (
+				CF7FB9BA1EC4DED800AB3A55 /* Sources */,
+				CF7FB9BB1EC4DED800AB3A55 /* Frameworks */,
+				CF7FB9BC1EC4DED800AB3A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7FB9C01EC4DED800AB3A55 /* PBXTargetDependency */,
+			);
+			name = "Biology Review QuizUITests";
+			productName = "Biology Review QuizUITests";
+			productReference = CF7FB9BE1EC4DED800AB3A55 /* Biology Review QuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7FB9971EC4DED700AB3A55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Trevor Rose";
+				TargetAttributes = {
+					CF7FB99E1EC4DED700AB3A55 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9F5M35K84C;
+						ProvisioningStyle = Automatic;
+					};
+					CF7FB9B21EC4DED700AB3A55 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9F5M35K84C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF7FB99E1EC4DED700AB3A55;
+					};
+					CF7FB9BD1EC4DED800AB3A55 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9F5M35K84C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF7FB99E1EC4DED700AB3A55;
+					};
+				};
+			};
+			buildConfigurationList = CF7FB99A1EC4DED700AB3A55 /* Build configuration list for PBXProject "Biology Review Quiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF7FB9961EC4DED700AB3A55;
+			productRefGroup = CF7FB9A01EC4DED700AB3A55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7FB99E1EC4DED700AB3A55 /* Biology Review Quiz */,
+				CF7FB9B21EC4DED700AB3A55 /* Biology Review QuizTests */,
+				CF7FB9BD1EC4DED800AB3A55 /* Biology Review QuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7FB99D1EC4DED700AB3A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7FB9AD1EC4DED700AB3A55 /* LaunchScreen.storyboard in Resources */,
+				CF7FB9AA1EC4DED700AB3A55 /* Assets.xcassets in Resources */,
+				CF7FB9A81EC4DED700AB3A55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7FB9B11EC4DED700AB3A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7FB9BC1EC4DED800AB3A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7FB99B1EC4DED700AB3A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7FB9A51EC4DED700AB3A55 /* ViewController.swift in Sources */,
+				CF7FB9A31EC4DED700AB3A55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7FB9AF1EC4DED700AB3A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7FB9B81EC4DED700AB3A55 /* Biology_Review_QuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7FB9BA1EC4DED800AB3A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7FB9C31EC4DED800AB3A55 /* Biology_Review_QuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF7FB9B51EC4DED700AB3A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7FB99E1EC4DED700AB3A55 /* Biology Review Quiz */;
+			targetProxy = CF7FB9B41EC4DED700AB3A55 /* PBXContainerItemProxy */;
+		};
+		CF7FB9C01EC4DED800AB3A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7FB99E1EC4DED700AB3A55 /* Biology Review Quiz */;
+			targetProxy = CF7FB9BF1EC4DED800AB3A55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF7FB9A61EC4DED700AB3A55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7FB9A71EC4DED700AB3A55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF7FB9AB1EC4DED700AB3A55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7FB9AC1EC4DED700AB3A55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF7FB9C51EC4DED800AB3A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF7FB9C61EC4DED800AB3A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7FB9C81EC4DED800AB3A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = "Biology Review Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keyloftstudios.Biology-Review-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF7FB9C91EC4DED800AB3A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = "Biology Review Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keyloftstudios.Biology-Review-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF7FB9CB1EC4DED800AB3A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = "Biology Review QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keyloftstudios.Biology-Review-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biology Review Quiz.app/Biology Review Quiz";
+			};
+			name = Debug;
+		};
+		CF7FB9CC1EC4DED800AB3A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = "Biology Review QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keyloftstudios.Biology-Review-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biology Review Quiz.app/Biology Review Quiz";
+			};
+			name = Release;
+		};
+		CF7FB9CE1EC4DED800AB3A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = "Biology Review QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keyloftstudios.Biology-Review-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Biology Review Quiz";
+			};
+			name = Debug;
+		};
+		CF7FB9CF1EC4DED800AB3A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = "Biology Review QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keyloftstudios.Biology-Review-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Biology Review Quiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7FB99A1EC4DED700AB3A55 /* Build configuration list for PBXProject "Biology Review Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7FB9C51EC4DED800AB3A55 /* Debug */,
+				CF7FB9C61EC4DED800AB3A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7FB9C71EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7FB9C81EC4DED800AB3A55 /* Debug */,
+				CF7FB9C91EC4DED800AB3A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF7FB9CA1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review QuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7FB9CB1EC4DED800AB3A55 /* Debug */,
+				CF7FB9CC1EC4DED800AB3A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF7FB9CD1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review QuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7FB9CE1EC4DED800AB3A55 /* Debug */,
+				CF7FB9CF1EC4DED800AB3A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7FB9971EC4DED700AB3A55 /* Project object */;
+}
