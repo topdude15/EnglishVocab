@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BA4BFE87F22B610951C9E77 /* Pods_Biology_Review_QuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02767CECE84AFFA92B041EFB /* Pods_Biology_Review_QuizUITests.framework */; };
+		13174731D5FCEA4754EC9D09 /* Pods_Biology_Review_QuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE1F378F26BF3D6F3B91348 /* Pods_Biology_Review_QuizTests.framework */; };
+		2D09E7A0FEFB98B0760FCF5C /* Pods_Biology_Review_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009841E4532C42050672E861 /* Pods_Biology_Review_Quiz.framework */; };
+		CF3BBEDD1EC922FC006ADA75 /* LeaderboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3BBEDC1EC922FC006ADA75 /* LeaderboardVC.swift */; };
+		CF5F09141EC74C9E004E2936 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5F09131EC74C9E004E2936 /* Classes.swift */; };
 		CF7FB9A31EC4DED700AB3A55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9A21EC4DED700AB3A55 /* AppDelegate.swift */; };
-		CF7FB9A51EC4DED700AB3A55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9A41EC4DED700AB3A55 /* ViewController.swift */; };
 		CF7FB9A81EC4DED700AB3A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7FB9A61EC4DED700AB3A55 /* Main.storyboard */; };
 		CF7FB9AA1EC4DED700AB3A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7FB9A91EC4DED700AB3A55 /* Assets.xcassets */; };
 		CF7FB9AD1EC4DED700AB3A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7FB9AB1EC4DED700AB3A55 /* LaunchScreen.storyboard */; };
 		CF7FB9B81EC4DED700AB3A55 /* Biology_Review_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9B71EC4DED700AB3A55 /* Biology_Review_QuizTests.swift */; };
 		CF7FB9C31EC4DED800AB3A55 /* Biology_Review_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9C21EC4DED800AB3A55 /* Biology_Review_QuizUITests.swift */; };
+		CF7FB9D21EC4DF0E00AB3A55 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9D11EC4DF0E00AB3A55 /* LoginVC.swift */; };
+		CF7FB9D41EC4E49F00AB3A55 /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9D31EC4E49F00AB3A55 /* QuestionVC.swift */; };
+		CF7FB9D61EC4EE7B00AB3A55 /* CorrectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9D51EC4EE7B00AB3A55 /* CorrectVC.swift */; };
+		CF7FB9D81EC4EE8D00AB3A55 /* IncorrectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9D71EC4EE8D00AB3A55 /* IncorrectVC.swift */; };
+		CF8684471EC5E977004D833D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF8684461EC5E977004D833D /* GoogleService-Info.plist */; };
+		CF86844C1EC5EA89004D833D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86844B1EC5EA89004D833D /* Constants.swift */; };
+		CF86844E1EC5F096004D833D /* QuestionListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86844D1EC5F096004D833D /* QuestionListVC.swift */; };
+		CF8684511EC5F1D9004D833D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8684501EC5F1D9004D833D /* Post.swift */; };
+		CF8684531EC5F310004D833D /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8684521EC5F310004D833D /* QuestionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009841E4532C42050672E861 /* Pods_Biology_Review_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biology_Review_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02767CECE84AFFA92B041EFB /* Pods_Biology_Review_QuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biology_Review_QuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2620A318400A8DE81AF24CFB /* Pods-Biology Review Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biology Review Quiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Biology Review Quiz/Pods-Biology Review Quiz.debug.xcconfig"; sourceTree = "<group>"; };
+		2CA31108B13454E01931E431 /* Pods-Biology Review QuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biology Review QuizUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Biology Review QuizUITests/Pods-Biology Review QuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A5DE368A8AFDA4D58DE292BD /* Pods-Biology Review QuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biology Review QuizUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Biology Review QuizUITests/Pods-Biology Review QuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B20CA302EEC3B158AEC8C008 /* Pods-Biology Review QuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biology Review QuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Biology Review QuizTests/Pods-Biology Review QuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C020F3EA01BE2088B38EECD9 /* Pods-Biology Review Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biology Review Quiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Biology Review Quiz/Pods-Biology Review Quiz.release.xcconfig"; sourceTree = "<group>"; };
+		CF3BBEDC1EC922FC006ADA75 /* LeaderboardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardVC.swift; sourceTree = "<group>"; };
+		CF5F09131EC74C9E004E2936 /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 		CF7FB99F1EC4DED700AB3A55 /* Biology Review Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Biology Review Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7FB9A21EC4DED700AB3A55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF7FB9A41EC4DED700AB3A55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF7FB9A71EC4DED700AB3A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF7FB9A91EC4DED700AB3A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF7FB9AC1EC4DED700AB3A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +68,17 @@
 		CF7FB9BE1EC4DED800AB3A55 /* Biology Review QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biology Review QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7FB9C21EC4DED800AB3A55 /* Biology_Review_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biology_Review_QuizUITests.swift; sourceTree = "<group>"; };
 		CF7FB9C41EC4DED800AB3A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7FB9D11EC4DF0E00AB3A55 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		CF7FB9D31EC4E49F00AB3A55 /* QuestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
+		CF7FB9D51EC4EE7B00AB3A55 /* CorrectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorrectVC.swift; sourceTree = "<group>"; };
+		CF7FB9D71EC4EE8D00AB3A55 /* IncorrectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncorrectVC.swift; sourceTree = "<group>"; };
+		CF8684461EC5E977004D833D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF86844B1EC5EA89004D833D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CF86844D1EC5F096004D833D /* QuestionListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionListVC.swift; sourceTree = "<group>"; };
+		CF8684501EC5F1D9004D833D /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CF8684521EC5F310004D833D /* QuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		F7700C9920D6B51C7DEEA97E /* Pods-Biology Review QuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biology Review QuizTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Biology Review QuizTests/Pods-Biology Review QuizTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAE1F378F26BF3D6F3B91348 /* Pods_Biology_Review_QuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biology_Review_QuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D09E7A0FEFB98B0760FCF5C /* Pods_Biology_Review_Quiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13174731D5FCEA4754EC9D09 /* Pods_Biology_Review_QuizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA4BFE87F22B610951C9E77 /* Pods_Biology_Review_QuizUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88A80E7455A4920A88AB00E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2620A318400A8DE81AF24CFB /* Pods-Biology Review Quiz.debug.xcconfig */,
+				C020F3EA01BE2088B38EECD9 /* Pods-Biology Review Quiz.release.xcconfig */,
+				B20CA302EEC3B158AEC8C008 /* Pods-Biology Review QuizTests.debug.xcconfig */,
+				F7700C9920D6B51C7DEEA97E /* Pods-Biology Review QuizTests.release.xcconfig */,
+				A5DE368A8AFDA4D58DE292BD /* Pods-Biology Review QuizUITests.debug.xcconfig */,
+				2CA31108B13454E01931E431 /* Pods-Biology Review QuizUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE2B59825C59B2D6E44E72F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				009841E4532C42050672E861 /* Pods_Biology_Review_Quiz.framework */,
+				FAE1F378F26BF3D6F3B91348 /* Pods_Biology_Review_QuizTests.framework */,
+				02767CECE84AFFA92B041EFB /* Pods_Biology_Review_QuizUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF7FB9961EC4DED700AB3A55 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +139,8 @@
 				CF7FB9B61EC4DED700AB3A55 /* Biology Review QuizTests */,
 				CF7FB9C11EC4DED800AB3A55 /* Biology Review QuizUITests */,
 				CF7FB9A01EC4DED700AB3A55 /* Products */,
+				88A80E7455A4920A88AB00E0 /* Pods */,
+				BE2B59825C59B2D6E44E72F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +157,15 @@
 		CF7FB9A11EC4DED700AB3A55 /* Biology Review Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				CF86844F1EC5F1A7004D833D /* Models */,
+				CF8684481EC5EA5E004D833D /* Util */,
+				CF7FB9D01EC4DEF800AB3A55 /* VIews */,
 				CF7FB9A21EC4DED700AB3A55 /* AppDelegate.swift */,
-				CF7FB9A41EC4DED700AB3A55 /* ViewController.swift */,
 				CF7FB9A61EC4DED700AB3A55 /* Main.storyboard */,
 				CF7FB9A91EC4DED700AB3A55 /* Assets.xcassets */,
 				CF7FB9AB1EC4DED700AB3A55 /* LaunchScreen.storyboard */,
 				CF7FB9AE1EC4DED700AB3A55 /* Info.plist */,
+				CF8684461EC5E977004D833D /* GoogleService-Info.plist */,
 			);
 			path = "Biology Review Quiz";
 			sourceTree = "<group>";
@@ -125,6 +188,37 @@
 			path = "Biology Review QuizUITests";
 			sourceTree = "<group>";
 		};
+		CF7FB9D01EC4DEF800AB3A55 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FB9D11EC4DF0E00AB3A55 /* LoginVC.swift */,
+				CF7FB9D31EC4E49F00AB3A55 /* QuestionVC.swift */,
+				CF7FB9D51EC4EE7B00AB3A55 /* CorrectVC.swift */,
+				CF7FB9D71EC4EE8D00AB3A55 /* IncorrectVC.swift */,
+				CF86844D1EC5F096004D833D /* QuestionListVC.swift */,
+				CF8684521EC5F310004D833D /* QuestionCell.swift */,
+				CF3BBEDC1EC922FC006ADA75 /* LeaderboardVC.swift */,
+			);
+			name = VIews;
+			sourceTree = "<group>";
+		};
+		CF8684481EC5EA5E004D833D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CF86844B1EC5EA89004D833D /* Constants.swift */,
+				CF5F09131EC74C9E004E2936 /* Classes.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		CF86844F1EC5F1A7004D833D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF8684501EC5F1D9004D833D /* Post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF7FB9C71EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review Quiz" */;
 			buildPhases = (
+				50A30EF289193DEAC56D4674 /* [CP] Check Pods Manifest.lock */,
 				CF7FB99B1EC4DED700AB3A55 /* Sources */,
 				CF7FB99C1EC4DED700AB3A55 /* Frameworks */,
 				CF7FB99D1EC4DED700AB3A55 /* Resources */,
+				70714BF56003A13AB22E6445 /* [CP] Embed Pods Frameworks */,
+				942080D0A8D5DC6DA219772C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF7FB9CA1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review QuizTests" */;
 			buildPhases = (
+				7A416D6224E0A3132FF32E51 /* [CP] Check Pods Manifest.lock */,
 				CF7FB9AF1EC4DED700AB3A55 /* Sources */,
 				CF7FB9B01EC4DED700AB3A55 /* Frameworks */,
 				CF7FB9B11EC4DED700AB3A55 /* Resources */,
+				415F0CE7DC3B5A08419192B0 /* [CP] Embed Pods Frameworks */,
+				A7A9AE3A30F4DA02D5EF5BB1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF7FB9CD1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review QuizUITests" */;
 			buildPhases = (
+				8726A39D0D7E49F5D6277464 /* [CP] Check Pods Manifest.lock */,
 				CF7FB9BA1EC4DED800AB3A55 /* Sources */,
 				CF7FB9BB1EC4DED800AB3A55 /* Frameworks */,
 				CF7FB9BC1EC4DED800AB3A55 /* Resources */,
+				E70AD38F82FD376530BF13EC /* [CP] Embed Pods Frameworks */,
+				085ABBC8311DA2607F2035CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +296,7 @@
 				TargetAttributes = {
 					CF7FB99E1EC4DED700AB3A55 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 9F5M35K84C;
+						DevelopmentTeam = ZJX725VCVA;
 						ProvisioningStyle = Automatic;
 					};
 					CF7FB9B21EC4DED700AB3A55 = {
@@ -236,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF7FB9AD1EC4DED700AB3A55 /* LaunchScreen.storyboard in Resources */,
+				CF8684471EC5E977004D833D /* GoogleService-Info.plist in Resources */,
 				CF7FB9AA1EC4DED700AB3A55 /* Assets.xcassets in Resources */,
 				CF7FB9A81EC4DED700AB3A55 /* Main.storyboard in Resources */,
 			);
@@ -257,13 +361,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		085ABBC8311DA2607F2035CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Biology Review QuizUITests/Pods-Biology Review QuizUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		415F0CE7DC3B5A08419192B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Biology Review QuizTests/Pods-Biology Review QuizTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50A30EF289193DEAC56D4674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70714BF56003A13AB22E6445 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Biology Review Quiz/Pods-Biology Review Quiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A416D6224E0A3132FF32E51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8726A39D0D7E49F5D6277464 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		942080D0A8D5DC6DA219772C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Biology Review Quiz/Pods-Biology Review Quiz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7A9AE3A30F4DA02D5EF5BB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Biology Review QuizTests/Pods-Biology Review QuizTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E70AD38F82FD376530BF13EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Biology Review QuizUITests/Pods-Biology Review QuizUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF7FB99B1EC4DED700AB3A55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7FB9A51EC4DED700AB3A55 /* ViewController.swift in Sources */,
+				CF86844E1EC5F096004D833D /* QuestionListVC.swift in Sources */,
+				CF7FB9D21EC4DF0E00AB3A55 /* LoginVC.swift in Sources */,
+				CF7FB9D61EC4EE7B00AB3A55 /* CorrectVC.swift in Sources */,
+				CF8684511EC5F1D9004D833D /* Post.swift in Sources */,
+				CF7FB9D81EC4EE8D00AB3A55 /* IncorrectVC.swift in Sources */,
+				CF7FB9D41EC4E49F00AB3A55 /* QuestionVC.swift in Sources */,
+				CF8684531EC5F310004D833D /* QuestionCell.swift in Sources */,
+				CF3BBEDD1EC922FC006ADA75 /* LeaderboardVC.swift in Sources */,
 				CF7FB9A31EC4DED700AB3A55 /* AppDelegate.swift in Sources */,
+				CF5F09141EC74C9E004E2936 /* Classes.swift in Sources */,
+				CF86844C1EC5EA89004D833D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,32 +666,39 @@
 		};
 		CF7FB9C81EC4DED800AB3A55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2620A318400A8DE81AF24CFB /* Pods-Biology Review Quiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9F5M35K84C;
+				DEVELOPMENT_TEAM = ZJX725VCVA;
 				INFOPLIST_FILE = "Biology Review Quiz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.keyloftstudios.Biology-Review-Quiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Trevor.BioReviewQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CF7FB9C91EC4DED800AB3A55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C020F3EA01BE2088B38EECD9 /* Pods-Biology Review Quiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9F5M35K84C;
+				DEVELOPMENT_TEAM = ZJX725VCVA;
 				INFOPLIST_FILE = "Biology Review Quiz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.keyloftstudios.Biology-Review-Quiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Trevor.BioReviewQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		CF7FB9CB1EC4DED800AB3A55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20CA302EEC3B158AEC8C008 /* Pods-Biology Review QuizTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +714,7 @@
 		};
 		CF7FB9CC1EC4DED800AB3A55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7700C9920D6B51C7DEEA97E /* Pods-Biology Review QuizTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +730,7 @@
 		};
 		CF7FB9CE1EC4DED800AB3A55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5DE368A8AFDA4D58DE292BD /* Pods-Biology Review QuizUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9F5M35K84C;
@@ -485,6 +745,7 @@
 		};
 		CF7FB9CF1EC4DED800AB3A55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA31108B13454E01931E431 /* Pods-Biology Review QuizUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 9F5M35K84C;
@@ -516,6 +777,7 @@
 				CF7FB9C91EC4DED800AB3A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF7FB9CA1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +786,7 @@
 				CF7FB9CC1EC4DED800AB3A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF7FB9CD1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review QuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +795,7 @@
 				CF7FB9CF1EC4DED800AB3A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
