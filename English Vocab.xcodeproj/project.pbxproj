@@ -22,11 +22,11 @@
 		CF7FB9D41EC4E49F00AB3A55 /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9D31EC4E49F00AB3A55 /* QuestionVC.swift */; };
 		CF7FB9D61EC4EE7B00AB3A55 /* CorrectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9D51EC4EE7B00AB3A55 /* CorrectVC.swift */; };
 		CF7FB9D81EC4EE8D00AB3A55 /* IncorrectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7FB9D71EC4EE8D00AB3A55 /* IncorrectVC.swift */; };
-		CF8684471EC5E977004D833D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF8684461EC5E977004D833D /* GoogleService-Info.plist */; };
 		CF86844C1EC5EA89004D833D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86844B1EC5EA89004D833D /* Constants.swift */; };
-		CF86844E1EC5F096004D833D /* QuestionListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86844D1EC5F096004D833D /* QuestionListVC.swift */; };
+		CF86844E1EC5F096004D833D /* WordListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86844D1EC5F096004D833D /* WordListVC.swift */; };
 		CF8684511EC5F1D9004D833D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8684501EC5F1D9004D833D /* Post.swift */; };
 		CF8684531EC5F310004D833D /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8684521EC5F310004D833D /* QuestionCell.swift */; };
+		CFC538AB1EFF041E00730594 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFC538AA1EFF041E00730594 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,27 +56,27 @@
 		C020F3EA01BE2088B38EECD9 /* Pods-Biology Review Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biology Review Quiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Biology Review Quiz/Pods-Biology Review Quiz.release.xcconfig"; sourceTree = "<group>"; };
 		CF3BBEDC1EC922FC006ADA75 /* LeaderboardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardVC.swift; sourceTree = "<group>"; };
 		CF5F09131EC74C9E004E2936 /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
-		CF7FB99F1EC4DED700AB3A55 /* Biology Review Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Biology Review Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7FB99F1EC4DED700AB3A55 /* English Vocab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "English Vocab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7FB9A21EC4DED700AB3A55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7FB9A71EC4DED700AB3A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF7FB9A91EC4DED700AB3A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF7FB9AC1EC4DED700AB3A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF7FB9AE1EC4DED700AB3A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF7FB9B31EC4DED700AB3A55 /* Biology Review QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biology Review QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7FB9B31EC4DED700AB3A55 /* English VocabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "English VocabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7FB9B71EC4DED700AB3A55 /* Biology_Review_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biology_Review_QuizTests.swift; sourceTree = "<group>"; };
 		CF7FB9B91EC4DED800AB3A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF7FB9BE1EC4DED800AB3A55 /* Biology Review QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biology Review QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7FB9BE1EC4DED800AB3A55 /* English VocabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "English VocabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7FB9C21EC4DED800AB3A55 /* Biology_Review_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biology_Review_QuizUITests.swift; sourceTree = "<group>"; };
 		CF7FB9C41EC4DED800AB3A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF7FB9D11EC4DF0E00AB3A55 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CF7FB9D31EC4E49F00AB3A55 /* QuestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
 		CF7FB9D51EC4EE7B00AB3A55 /* CorrectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorrectVC.swift; sourceTree = "<group>"; };
 		CF7FB9D71EC4EE8D00AB3A55 /* IncorrectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncorrectVC.swift; sourceTree = "<group>"; };
-		CF8684461EC5E977004D833D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CF86844B1EC5EA89004D833D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		CF86844D1EC5F096004D833D /* QuestionListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionListVC.swift; sourceTree = "<group>"; };
+		CF86844D1EC5F096004D833D /* WordListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordListVC.swift; sourceTree = "<group>"; };
 		CF8684501EC5F1D9004D833D /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		CF8684521EC5F310004D833D /* QuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		CFC538AA1EFF041E00730594 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F7700C9920D6B51C7DEEA97E /* Pods-Biology Review QuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biology Review QuizTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Biology Review QuizTests/Pods-Biology Review QuizTests.release.xcconfig"; sourceTree = "<group>"; };
 		FAE1F378F26BF3D6F3B91348 /* Pods_Biology_Review_QuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biology_Review_QuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -135,9 +135,9 @@
 		CF7FB9961EC4DED700AB3A55 = {
 			isa = PBXGroup;
 			children = (
-				CF7FB9A11EC4DED700AB3A55 /* Biology Review Quiz */,
-				CF7FB9B61EC4DED700AB3A55 /* Biology Review QuizTests */,
-				CF7FB9C11EC4DED800AB3A55 /* Biology Review QuizUITests */,
+				CF7FB9A11EC4DED700AB3A55 /* EnglishVocab */,
+				CF7FB9B61EC4DED700AB3A55 /* EnglishVocabTests */,
+				CF7FB9C11EC4DED800AB3A55 /* EnglishVocabUITests */,
 				CF7FB9A01EC4DED700AB3A55 /* Products */,
 				88A80E7455A4920A88AB00E0 /* Pods */,
 				BE2B59825C59B2D6E44E72F4 /* Frameworks */,
@@ -147,14 +147,14 @@
 		CF7FB9A01EC4DED700AB3A55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF7FB99F1EC4DED700AB3A55 /* Biology Review Quiz.app */,
-				CF7FB9B31EC4DED700AB3A55 /* Biology Review QuizTests.xctest */,
-				CF7FB9BE1EC4DED800AB3A55 /* Biology Review QuizUITests.xctest */,
+				CF7FB99F1EC4DED700AB3A55 /* English Vocab.app */,
+				CF7FB9B31EC4DED700AB3A55 /* English VocabTests.xctest */,
+				CF7FB9BE1EC4DED800AB3A55 /* English VocabUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF7FB9A11EC4DED700AB3A55 /* Biology Review Quiz */ = {
+		CF7FB9A11EC4DED700AB3A55 /* EnglishVocab */ = {
 			isa = PBXGroup;
 			children = (
 				CF86844F1EC5F1A7004D833D /* Models */,
@@ -165,26 +165,29 @@
 				CF7FB9A91EC4DED700AB3A55 /* Assets.xcassets */,
 				CF7FB9AB1EC4DED700AB3A55 /* LaunchScreen.storyboard */,
 				CF7FB9AE1EC4DED700AB3A55 /* Info.plist */,
-				CF8684461EC5E977004D833D /* GoogleService-Info.plist */,
+				CFC538AA1EFF041E00730594 /* GoogleService-Info.plist */,
 			);
+			name = EnglishVocab;
 			path = "Biology Review Quiz";
 			sourceTree = "<group>";
 		};
-		CF7FB9B61EC4DED700AB3A55 /* Biology Review QuizTests */ = {
+		CF7FB9B61EC4DED700AB3A55 /* EnglishVocabTests */ = {
 			isa = PBXGroup;
 			children = (
 				CF7FB9B71EC4DED700AB3A55 /* Biology_Review_QuizTests.swift */,
 				CF7FB9B91EC4DED800AB3A55 /* Info.plist */,
 			);
+			name = EnglishVocabTests;
 			path = "Biology Review QuizTests";
 			sourceTree = "<group>";
 		};
-		CF7FB9C11EC4DED800AB3A55 /* Biology Review QuizUITests */ = {
+		CF7FB9C11EC4DED800AB3A55 /* EnglishVocabUITests */ = {
 			isa = PBXGroup;
 			children = (
 				CF7FB9C21EC4DED800AB3A55 /* Biology_Review_QuizUITests.swift */,
 				CF7FB9C41EC4DED800AB3A55 /* Info.plist */,
 			);
+			name = EnglishVocabUITests;
 			path = "Biology Review QuizUITests";
 			sourceTree = "<group>";
 		};
@@ -195,7 +198,7 @@
 				CF7FB9D31EC4E49F00AB3A55 /* QuestionVC.swift */,
 				CF7FB9D51EC4EE7B00AB3A55 /* CorrectVC.swift */,
 				CF7FB9D71EC4EE8D00AB3A55 /* IncorrectVC.swift */,
-				CF86844D1EC5F096004D833D /* QuestionListVC.swift */,
+				CF86844D1EC5F096004D833D /* WordListVC.swift */,
 				CF8684521EC5F310004D833D /* QuestionCell.swift */,
 				CF3BBEDC1EC922FC006ADA75 /* LeaderboardVC.swift */,
 			);
@@ -222,9 +225,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF7FB99E1EC4DED700AB3A55 /* Biology Review Quiz */ = {
+		CF7FB99E1EC4DED700AB3A55 /* English Vocab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF7FB9C71EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review Quiz" */;
+			buildConfigurationList = CF7FB9C71EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "English Vocab" */;
 			buildPhases = (
 				50A30EF289193DEAC56D4674 /* [CP] Check Pods Manifest.lock */,
 				CF7FB99B1EC4DED700AB3A55 /* Sources */,
@@ -237,14 +240,14 @@
 			);
 			dependencies = (
 			);
-			name = "Biology Review Quiz";
+			name = "English Vocab";
 			productName = "Biology Review Quiz";
-			productReference = CF7FB99F1EC4DED700AB3A55 /* Biology Review Quiz.app */;
+			productReference = CF7FB99F1EC4DED700AB3A55 /* English Vocab.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CF7FB9B21EC4DED700AB3A55 /* Biology Review QuizTests */ = {
+		CF7FB9B21EC4DED700AB3A55 /* English VocabTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF7FB9CA1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review QuizTests" */;
+			buildConfigurationList = CF7FB9CA1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "English VocabTests" */;
 			buildPhases = (
 				7A416D6224E0A3132FF32E51 /* [CP] Check Pods Manifest.lock */,
 				CF7FB9AF1EC4DED700AB3A55 /* Sources */,
@@ -258,14 +261,14 @@
 			dependencies = (
 				CF7FB9B51EC4DED700AB3A55 /* PBXTargetDependency */,
 			);
-			name = "Biology Review QuizTests";
+			name = "English VocabTests";
 			productName = "Biology Review QuizTests";
-			productReference = CF7FB9B31EC4DED700AB3A55 /* Biology Review QuizTests.xctest */;
+			productReference = CF7FB9B31EC4DED700AB3A55 /* English VocabTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CF7FB9BD1EC4DED800AB3A55 /* Biology Review QuizUITests */ = {
+		CF7FB9BD1EC4DED800AB3A55 /* English VocabUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF7FB9CD1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review QuizUITests" */;
+			buildConfigurationList = CF7FB9CD1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "English VocabUITests" */;
 			buildPhases = (
 				8726A39D0D7E49F5D6277464 /* [CP] Check Pods Manifest.lock */,
 				CF7FB9BA1EC4DED800AB3A55 /* Sources */,
@@ -279,9 +282,9 @@
 			dependencies = (
 				CF7FB9C01EC4DED800AB3A55 /* PBXTargetDependency */,
 			);
-			name = "Biology Review QuizUITests";
+			name = "English VocabUITests";
 			productName = "Biology Review QuizUITests";
-			productReference = CF7FB9BE1EC4DED800AB3A55 /* Biology Review QuizUITests.xctest */;
+			productReference = CF7FB9BE1EC4DED800AB3A55 /* English VocabUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -313,7 +316,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CF7FB99A1EC4DED700AB3A55 /* Build configuration list for PBXProject "Biology Review Quiz" */;
+			buildConfigurationList = CF7FB99A1EC4DED700AB3A55 /* Build configuration list for PBXProject "English Vocab" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -326,9 +329,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF7FB99E1EC4DED700AB3A55 /* Biology Review Quiz */,
-				CF7FB9B21EC4DED700AB3A55 /* Biology Review QuizTests */,
-				CF7FB9BD1EC4DED800AB3A55 /* Biology Review QuizUITests */,
+				CF7FB99E1EC4DED700AB3A55 /* English Vocab */,
+				CF7FB9B21EC4DED700AB3A55 /* English VocabTests */,
+				CF7FB9BD1EC4DED800AB3A55 /* English VocabUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -339,7 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF7FB9AD1EC4DED700AB3A55 /* LaunchScreen.storyboard in Resources */,
-				CF8684471EC5E977004D833D /* GoogleService-Info.plist in Resources */,
+				CFC538AB1EFF041E00730594 /* GoogleService-Info.plist in Resources */,
 				CF7FB9AA1EC4DED700AB3A55 /* Assets.xcassets in Resources */,
 				CF7FB9A81EC4DED700AB3A55 /* Main.storyboard in Resources */,
 			);
@@ -504,7 +507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF86844E1EC5F096004D833D /* QuestionListVC.swift in Sources */,
+				CF86844E1EC5F096004D833D /* WordListVC.swift in Sources */,
 				CF7FB9D21EC4DF0E00AB3A55 /* LoginVC.swift in Sources */,
 				CF7FB9D61EC4EE7B00AB3A55 /* CorrectVC.swift in Sources */,
 				CF8684511EC5F1D9004D833D /* Post.swift in Sources */,
@@ -539,12 +542,12 @@
 /* Begin PBXTargetDependency section */
 		CF7FB9B51EC4DED700AB3A55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF7FB99E1EC4DED700AB3A55 /* Biology Review Quiz */;
+			target = CF7FB99E1EC4DED700AB3A55 /* English Vocab */;
 			targetProxy = CF7FB9B41EC4DED700AB3A55 /* PBXContainerItemProxy */;
 		};
 		CF7FB9C01EC4DED800AB3A55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF7FB99E1EC4DED700AB3A55 /* Biology Review Quiz */;
+			target = CF7FB99E1EC4DED700AB3A55 /* English Vocab */;
 			targetProxy = CF7FB9BF1EC4DED800AB3A55 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -673,10 +676,10 @@
 				INFOPLIST_FILE = "Biology Review Quiz/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Trevor.BioReviewQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.EnglishVocab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -689,10 +692,10 @@
 				INFOPLIST_FILE = "Biology Review Quiz/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Trevor.BioReviewQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.EnglishVocab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -708,7 +711,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.keyloftstudios.Biology-Review-QuizTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biology Review Quiz.app/Biology Review Quiz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/English Vocab.app/English Vocab";
 			};
 			name = Debug;
 		};
@@ -724,7 +727,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.keyloftstudios.Biology-Review-QuizTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biology Review Quiz.app/Biology Review Quiz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/English Vocab.app/English Vocab";
 			};
 			name = Release;
 		};
@@ -761,7 +764,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF7FB99A1EC4DED700AB3A55 /* Build configuration list for PBXProject "Biology Review Quiz" */ = {
+		CF7FB99A1EC4DED700AB3A55 /* Build configuration list for PBXProject "English Vocab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF7FB9C51EC4DED800AB3A55 /* Debug */,
@@ -770,7 +773,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF7FB9C71EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review Quiz" */ = {
+		CF7FB9C71EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "English Vocab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF7FB9C81EC4DED800AB3A55 /* Debug */,
@@ -779,7 +782,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF7FB9CA1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review QuizTests" */ = {
+		CF7FB9CA1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "English VocabTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF7FB9CB1EC4DED800AB3A55 /* Debug */,
@@ -788,7 +791,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF7FB9CD1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "Biology Review QuizUITests" */ = {
+		CF7FB9CD1EC4DED800AB3A55 /* Build configuration list for PBXNativeTarget "English VocabUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF7FB9CE1EC4DED800AB3A55 /* Debug */,

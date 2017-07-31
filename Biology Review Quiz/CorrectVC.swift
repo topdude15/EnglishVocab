@@ -7,12 +7,28 @@
 //
 
 import UIKit
+import Firebase
+
 
 class CorrectVC: UIViewController {
 
+    @IBOutlet weak var infoBox: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let postKey = postID.sharedInstance.postKey
+        
+        FIRDatabase.database().reference().child("questions").child(postKey!).observeSingleEvent(of: .value, with: { (snapshot) in
+            if let dictionary = snapshot.value as? [String: AnyObject] {
+                let info = dictionary["info"] as! String
+                self.infoBox.text = info
+            }
+            
+            
+        })
+        
+        
         // Do any additional setup after loading the view.
     }
 
@@ -21,6 +37,11 @@ class CorrectVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+
+    @IBAction func goBack(_ sender: Any) {
+        performSegue(withIdentifier: "question", sender: nil)
+    }
+
 
     /*
     // MARK: - Navigation

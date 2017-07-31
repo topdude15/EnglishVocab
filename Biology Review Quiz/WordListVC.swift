@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import SwiftKeychainWrapper
 
-class QuestionListVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class WordListVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     var posts = [Post]()
@@ -20,7 +20,7 @@ class QuestionListVC: UIViewController, UITableViewDelegate, UITableViewDataSour
         tableView.delegate = self
         tableView.dataSource = self
         
-        FIRDatabase.database().reference().child("questions").observe(.value, with: { (snapshot) in
+        FIRDatabase.database().reference().child("words").observe(.value, with: { (snapshot) in
             self.posts = []
             
             if let snapshot = snapshot.children.allObjects as? [FIRDataSnapshot] {

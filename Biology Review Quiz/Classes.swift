@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+class postID {
+    static var sharedInstance = postID()
+    private init() { }
+    
+    var postKey: String!
+}
